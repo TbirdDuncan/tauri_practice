@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // With the Tauri API npm package:
 import { invoke } from '@tauri-apps/api/tauri'
 // Invoke the command
-invoke("printToJS");
+invoke("print_to_js");
 
 ReactDOM.render(
   <React.StrictMode>
